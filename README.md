@@ -17,4 +17,4 @@ https://movidius.github.io/ncsdk/
 
 
 
-We appologize for any inconvenience this may have caused.  
+We apologize for any inconvenience this may have caused.  
