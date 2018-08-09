@@ -9,12 +9,10 @@ https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-01_12_00_01-full/ncsdk-1.
 
 
 **2.05.00.02:**</br>
-
 https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-02_05_00_02-full/ncsdk-2.05.00.02.tar.gz
 
 
 **Documentation will remain here:** </br>
-
 https://movidius.github.io/ncsdk/
 
 
