@@ -528,8 +528,7 @@
 
 <p>To perform the typical installation of the NCSDK, use the following command on your host machine:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">-b</span> ncsdk2 http://github.com/Movidius/ncsdk <span class="o">&amp;&amp;</span> <span class="nb">cd </span>ncsdk <span class="o">&amp;&amp;</span> make <span class="nb">install</span>
-</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-01_12_00_01-full/ncsdk-1.12.00.01.tar.gz<br>tar xvf ncsdk-1.12.00.01.tar.gz<br>cd ncsdk-1.12.00.01<br>make install</code></pre></div></div>
 
 <p>The <code class="highlighter-rouge">-b ncsdk2</code> option checks out the latest version of NCSDK 2 from the ncsdk2 branch. If you omit this option you will install the NCSDK version on the master branch, which is currently NCSDK 1.x.</p>
 
