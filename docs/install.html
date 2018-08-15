@@ -526,11 +526,15 @@
 
 <h2 id="installation">Installation</h2>
 
-<p>To perform the typical installation of the NCSDK, use the following command on your host machine:</p>
+<p>To perform the typical installation of the NCSDK, use the following commansd on your host machine:</p>
 
+<p>ncsdk 2 (latest) </p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-02_05_00_02-full/ncsdk-2.05.00.02.tar.gz<br>tar xvf ncsdk-2.05.00.02.tar.gz<br>cd ncsdk-2.05.00.02<br>make install</code></pre></div></div>
+
+		
+<p>ncsdk 1 (legacy) </p>
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://ncs-forum-uploads.s3.amazonaws.com/ncsdk/ncsdk-01_12_00_01-full/ncsdk-1.12.00.01.tar.gz<br>tar xvf ncsdk-1.12.00.01.tar.gz<br>cd ncsdk-1.12.00.01<br>make install</code></pre></div></div>
 
-<p>The <code class="highlighter-rouge">-b ncsdk2</code> option checks out the latest version of NCSDK 2 from the ncsdk2 branch. If you omit this option you will install the NCSDK version on the master branch, which is currently NCSDK 1.x.</p>
 
 <p><br /></p>
 <div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-circle"></i> <b>Warning:</b> <strong>Upgrading from NCSDK 1.x to NCSDK 2.x</strong> If you currently have NCSDK 1.x installed and you are installing NCSDK 2.x, the Neural Compute API (NCAPI) will be upgraded from v1 to v2. NCAPI v2 is not backwards-compatible with NCAPI v1 (i.e. programs written with NCAPI v1 will not compile or run with NCAPI v2). However, all of your NCAPI v1 files will be moved to /opt/movidius/ncsdk1.<br /><br />For more information about NCAPI changes, see the <a href="ncapi/readme.html">Neural Compute API overview</a>.</div>
